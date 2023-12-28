@@ -1,0 +1,16 @@
+:root{
+    --primary:rgb(160, 82, 45);
+}
+
+.text-primary{
+    color: rgb(160, 82, 45) !important;
+}
+
+.bg-primary{
+    background-color: var(--primary)!important;
+
+}
+
+.link-primary{
+    color: var(--primary)!important;
+}
