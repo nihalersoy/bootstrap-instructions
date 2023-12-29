@@ -14,3 +14,7 @@
 .link-primary{
     color: var(--primary)!important;
 }
+
+.rounded{
+    border-radius: 20px !important;
+}
