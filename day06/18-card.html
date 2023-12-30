@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="p-5">
+    <div class="card mb-3">
+        Hello
+    </div>
+
+    <div class="card mb-5">
+        <div class="card-body">World</div>
+    </div>
+
+    <div class="card mb-3">
+        <img src="../assets/img/image-1.jpg" alt="storm" class="card-img-top">
+        <div class="card-body">
+            <h4 class="card-title">Title</h4>
+            <p class="card-text">Text goes here</p>
+        </div>
+    </div>
+
+    
+
+    <div class="card mb-3">
+        
+        <div class="card-body">
+            <h4 class="card-title">Title</h4>
+            <p class="card-text">Text goes here</p>
+        </div>
+        <img src="../assets/img/image-1.jpg" alt="storm" class="card-img-bottom">
+    </div>
+
+
+    <div class="card text-center mb-5">
+        <div class="card-header">Header</div>
+        <div class="card-body">
+            <h4 class="card-title">Title</h4>
+            <p class="card-text">Text</p>
+        </div>
+        <div class="card-footer text-muted">Footer</div>
+    </div>
+    
+    <!--cardları grid yapısında kullanmak en etkili yöntem-->
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </div>
+
+
+
+    <div class="card text-bg-dark mb-5">
+        <img src="../assets/img/image-2.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small>Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+
+      <!--bütün elemanarımız aynı breakpointlerde hareket edeceklerse breakpointleri row class ına yazabiliriz-->
+
+
+      <div class="row row-cols-1 row-cols-md-2 g-4"> <!--md den itibaren yanyana 2 eleman gelsin demiş oluyoruz-->
+        <div class="col">
+          <div class="card">
+            <img src="../assets/img/image-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../assets/img/image-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../assets/img/image-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../assets/img/image-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+</body>
+</html>
